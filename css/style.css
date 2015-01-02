@@ -28,7 +28,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 h1, h2 {
@@ -64,6 +64,8 @@ header {
   line-height: 200px;
   text-align: center;
   background: #303e49;
+  background: url("../img/hero.png") bottom;
+  background-size: 100%;
 }
 header h1 {
   color: white;
@@ -480,4 +482,8 @@ header h1 {
     -o-transform: translateX(0);
     transform: translateX(0);
   }
+}
+
+.cd-timeline-content img {
+  display: block;
 }
