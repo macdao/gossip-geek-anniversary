@@ -60,22 +60,23 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
-  line-height: 200px;
+  height: 150px;
   text-align: center;
   background: #303e49;
-  background: url("../img/hero.png") bottom;
-  background-size: 100%;
+  background: url("../img/hero.png") right bottom no-repeat;
+  background-color: #ffffff;
+  position: relative;
 }
 header h1 {
-  color: white;
   font-size: 18px;
   font-size: 1.125rem;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }
 @media only screen and (min-width: 1170px) {
   header {
-    height: 300px;
-    line-height: 300px;
+    height: 250px;
   }
   header h1 {
     font-size: 24px;
