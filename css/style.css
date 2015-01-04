@@ -488,3 +488,17 @@ header h1 {
 .cd-timeline-content img {
   display: block;
 }
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  line-height: 30px;
+  font-size: 12px;
+  font-family: Monaco, monospace;
+}
+
+footer p:last-child {
+  font-style: italic;
+}
